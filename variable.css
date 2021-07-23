@@ -1,0 +1,622 @@
+body {
+  background-color: #fff;
+  font: 100% Helvetica, sans-serif;
+}
+
+.Header {
+  position: fixed;
+  background-color: #db2020;
+  z-index: 99999;
+}
+
+.Header .HeaderUp {
+  background-color: #db2020;
+  color: #fff;
+  padding: 5px 7em 5px 6em;
+}
+
+.Header .HeaderUp a {
+  font-size: 12px;
+  color: #fff;
+  display: block;
+  border-right: 1px solid #ccc;
+  padding: 0px;
+  margin: 0px;
+}
+
+.Header .HeaderFilter {
+  background-color: #db2020;
+  color: #fff;
+  padding: 10px 10em 0px 6em;
+  vertical-align: middle;
+}
+
+.Header .HeaderFilter .Brand p {
+  vertical-align: bottom;
+  font-size: 20px;
+}
+
+.Header .HeaderFilter .Brand p img {
+  height: 50px;
+  width: 50px;
+}
+
+.Header .HeaderFilter .cart {
+  font-size: 35px;
+  text-align: center;
+  vertical-align: text-bottom;
+}
+
+.Header .HeaderFilter .cart a {
+  color: white;
+}
+
+.Header .NavFilter .nav-item a {
+  color: white;
+  padding: 5px;
+  font-size: 11px;
+}
+
+.Promo {
+  height: 500px;
+  width: auto;
+  background-color: white;
+  padding: 9em 7em 0px 7em;
+  border-bottom: 1px solid #ccc;
+}
+
+.Promo .PromoBanner .Banner2 img {
+  width: 27.5em;
+  height: 9.6em;
+}
+
+.Promo .PromoList .list-group-item {
+  padding: 10px 1.71em 0px 1.72em;
+  text-align: center;
+}
+
+.Promo .PromoList .list-group-item img {
+  height: 50px;
+  width: 50px;
+}
+
+.Promo .PromoList .list-group-item p {
+  text-align: center;
+  font-size: 10px;
+}
+
+.Promo .PromoList .list-group-item:hover {
+  border: 1px solid blue;
+}
+
+.Kategori {
+  height: auto;
+  width: auto;
+  background-color: #ccc;
+  padding: 1em 7em 5px 7em;
+  border-bottom: 1px solid #ccc;
+}
+
+.Kategori .KategoriTitle {
+  padding: 10px;
+  background: white;
+  border: 1px solid #ccc;
+}
+
+.Kategori .KategoriBanner {
+  background-color: #fff;
+}
+
+.Kategori .KategoriBanner .Banner1 .carousel-inner .PromoList .first {
+  margin-left: 30px;
+}
+
+.Kategori .KategoriBanner .Banner1 .carousel-inner .PromoList .list-group-item {
+  padding: 9px 0.96em 0px 0.96em;
+  text-align: center;
+}
+
+.Kategori .KategoriBanner .Banner1 .carousel-inner .PromoList .list-group-item img {
+  height: 90px;
+  width: 90px;
+}
+
+.Kategori .KategoriBanner .Banner1 .carousel-inner .PromoList .list-group-item p {
+  text-align: center;
+  font-size: 10px;
+}
+
+.Kategori .KategoriBanner .Banner1 .carousel-inner .PromoList .list-group-item:hover {
+  border: 1px solid blue;
+}
+
+.Kategori .KategoriBanner .Banner1 .carousel-control-prev {
+  width: auto;
+}
+
+.Kategori .KategoriBanner .Banner1 .carousel-control-prev .carousel-control-prev-icon {
+  background-color: #333;
+  border: 2px solid #ccc;
+  width: 30px;
+  height: 30px;
+  fill: red;
+  margin-left: -15px;
+}
+
+.Kategori .KategoriBanner .Banner1 .carousel-control-prev .carousel-control-prev-icon:hover {
+  background-color: #333;
+  border: 2px solid #ccc;
+  width: 70px;
+  height: 70px;
+  fill: red;
+  margin-left: -35px;
+}
+
+.Kategori .KategoriBanner .Banner1 .carousel-control-next {
+  width: auto;
+}
+
+.Kategori .KategoriBanner .Banner1 .carousel-control-next .carousel-control-next-icon {
+  background-color: #333;
+  border: 2px solid #ccc;
+  width: 30px;
+  height: 30px;
+  fill: red;
+  margin-right: -15px;
+}
+
+.Kategori .KategoriBanner .Banner1 .carousel-control-next .carousel-control-next-icon:hover {
+  background-color: #333;
+  border: 2px solid #ccc;
+  width: 70px;
+  height: 70px;
+  fill: red;
+  margin-right: -35px;
+}
+
+.Flash {
+  height: auto;
+  width: auto;
+  background-color: #ccc;
+  padding: 2em 7em 2em 7em;
+  border-bottom: 1px solid #ccc;
+}
+
+.Flash .FlashTitle {
+  padding: 10px;
+  background: white;
+  border: 1px solid #ccc;
+}
+
+.Flash .FlashTitle .Title {
+  padding-left: 16px;
+  width: 114px;
+  height: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  display: inline-block;
+  background: url(https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/fb1088de81e42c4e538967ec12cb5caa.png) 50% no-repeat;
+  background-size: auto;
+  background-size: contain;
+}
+
+.Flash .FlashBanner {
+  background-color: #fff;
+}
+
+.Flash .FlashBanner .Banner1 .carousel-inner .PromoList .list-group-item {
+  text-align: center;
+  background: #fff;
+  padding: 0px;
+}
+
+.Flash .FlashBanner .Banner1 .carousel-inner .PromoList .list-group-item .first {
+  margin-left: 100px;
+  background: yellow;
+}
+
+.Flash .FlashBanner .Banner1 .carousel-inner .PromoList .list-group-item .Info {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  padding: 15px 7px 0px 8px;
+  margin-right: 2px;
+  font-weight: 400;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 3;
+  color: red;
+  opacity: 0.9;
+}
+
+.Flash .FlashBanner .Banner1 .carousel-inner .PromoList .list-group-item .Info p {
+  color: white;
+}
+
+.Flash .FlashBanner .Banner1 .carousel-inner .PromoList .list-group-item img {
+  padding: 0px;
+  margin: 0px;
+  height: 11.98rem;
+  width: auto;
+  background-image: url("https://cf.shopee.co.id/file/bc141d546f0e7f78070a81af3c3c2c3a_tn");
+}
+
+.Flash .FlashBanner .Banner1 .carousel-inner .PromoList .list-group-item .Price {
+  font-size: 15px;
+  font-weight: 700;
+  color: red;
+}
+
+.Flash .FlashBanner .Banner1 .carousel-inner .PromoList .list-group-item .CountOut {
+  padding: 0px 20px 0px 20px;
+  margin-bottom: 10px;
+}
+
+.Flash .FlashBanner .Banner1 .carousel-inner .PromoList .list-group-item:hover {
+  border: 1px solid blue;
+}
+
+.Flash .FlashBanner .Banner1 .carousel-control-prev {
+  width: auto;
+}
+
+.Flash .FlashBanner .Banner1 .carousel-control-prev .carousel-control-prev-icon {
+  background-color: #333;
+  border: 2px solid #ccc;
+  width: 30px;
+  height: 30px;
+  fill: red;
+  margin-left: -15px;
+}
+
+.Flash .FlashBanner .Banner1 .carousel-control-prev .carousel-control-prev-icon:hover {
+  background-color: #333;
+  border: 2px solid #ccc;
+  width: 70px;
+  height: 70px;
+  fill: red;
+  margin-left: -35px;
+}
+
+.Flash .FlashBanner .Banner1 .carousel-control-next {
+  width: auto;
+}
+
+.Flash .FlashBanner .Banner1 .carousel-control-next .carousel-control-next-icon {
+  background-color: #333;
+  border: 2px solid #ccc;
+  width: 30px;
+  height: 30px;
+  fill: red;
+  margin-right: -15px;
+}
+
+.Flash .FlashBanner .Banner1 .carousel-control-next .carousel-control-next-icon:hover {
+  background-color: #333;
+  border: 2px solid #ccc;
+  width: 70px;
+  height: 70px;
+  fill: red;
+  margin-right: -35px;
+}
+
+.Barner {
+  height: auto;
+  width: auto;
+  background-color: #ccc;
+  padding: 0em 7em 2em 7em;
+  border-bottom: 1px solid #ccc;
+}
+
+.ShoppeMall {
+  height: auto;
+  width: auto;
+  background-color: #ccc;
+  padding: 0em 7em 2em 7em;
+  border-bottom: 1px solid #ccc;
+}
+
+.ShoppeMall .ShoppeTitle {
+  background: white;
+  border-bottom: 1px solid #ccc;
+}
+
+.ShoppeMall .ShoppeTitle ul li {
+  padding-top: 10px;
+  list-style: none;
+  display: inline-block;
+  font-size: 14px;
+  color: red;
+  font-weight: 500;
+}
+
+.ShoppeMall .ShoppeTitle ul li .first {
+  padding-right: 15px;
+  margin-right: 15px;
+  border-right: 1px solid red;
+}
+
+.ShoppeMall .ShoppeBanner {
+  background-color: #fff;
+}
+
+.ShoppeMall .ShoppeBanner .Banner1 .carousel-inner .PromoList .list-group-item {
+  text-align: center;
+  background: #fff;
+  padding: 0px;
+}
+
+.ShoppeMall .ShoppeBanner .Banner1 .carousel-inner .PromoList .list-group-item .first {
+  margin-left: 100px;
+  background: yellow;
+}
+
+.ShoppeMall .ShoppeBanner .Banner1 .carousel-inner .PromoList .list-group-item .Info {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  padding: 15px 7px 0px 8px;
+  margin-right: 2px;
+  font-weight: 400;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 3;
+  color: red;
+  opacity: 0.9;
+}
+
+.ShoppeMall .ShoppeBanner .Banner1 .carousel-inner .PromoList .list-group-item .Info p {
+  color: white;
+}
+
+.ShoppeMall .ShoppeBanner .Banner1 .carousel-inner .PromoList .list-group-item img {
+  padding: 0px;
+  margin: 0px;
+  height: 13.6rem;
+  width: 13.95rem;
+  background-image: url("https://cf.shopee.co.id/file/bc141d546f0e7f78070a81af3c3c2c3a_tn");
+}
+
+.ShoppeMall .ShoppeBanner .Banner1 .carousel-inner .PromoList .list-group-item .Price {
+  font-size: 15px;
+  font-weight: 700;
+  color: red;
+}
+
+.ShoppeMall .ShoppeBanner .Banner1 .carousel-inner .PromoList .list-group-item .CountOut {
+  padding: 0px 20px 0px 20px;
+  margin-bottom: 10px;
+}
+
+.ShoppeMall .ShoppeBanner .Banner1 .carousel-inner .PromoList .list-group-item:hover {
+  border: 1px solid blue;
+}
+
+.ShoppeMall .ShoppeBanner .Banner1 .carousel-control-prev {
+  width: auto;
+  z-index: 9999;
+}
+
+.ShoppeMall .ShoppeBanner .Banner1 .carousel-control-prev .carousel-control-prev-icon {
+  background-color: #333;
+  border: 2px solid #ccc;
+  width: 30px;
+  height: 30px;
+  fill: red;
+  margin-left: -15px;
+}
+
+.ShoppeMall .ShoppeBanner .Banner1 .carousel-control-prev .carousel-control-prev-icon:hover {
+  background-color: #333;
+  border: 2px solid #ccc;
+  width: 70px;
+  height: 70px;
+  fill: red;
+  margin-left: -35px;
+}
+
+.ShoppeMall .ShoppeBanner .Banner1 .carousel-control-next {
+  width: auto;
+  z-index: 9999;
+}
+
+.ShoppeMall .ShoppeBanner .Banner1 .carousel-control-next .carousel-control-next-icon {
+  background-color: #333;
+  border: 2px solid #ccc;
+  width: 30px;
+  height: 30px;
+  fill: red;
+  margin-right: -15px;
+}
+
+.ShoppeMall .ShoppeBanner .Banner1 .carousel-control-next .carousel-control-next-icon:hover {
+  background-color: #333;
+  border: 2px solid #ccc;
+  width: 70px;
+  height: 70px;
+  fill: red;
+  margin-right: -35px;
+}
+
+.PencarianPopuler {
+  height: auto;
+  width: auto;
+  background-color: #ccc;
+  padding: 1em 7em 5px 7em;
+  border-bottom: 1px solid #ccc;
+}
+
+.PencarianPopuler .KategoriTitle {
+  padding: 10px;
+  background: white;
+  border: 1px solid #ccc;
+}
+
+.PencarianPopuler .KategoriBanner {
+  background-color: #fff;
+}
+
+.PencarianPopuler .KategoriBanner .Banner1 .carousel-inner .PromoList .first {
+  margin-left: 30px;
+}
+
+.PencarianPopuler .KategoriBanner .Banner1 .carousel-inner .PromoList .list-group-item {
+  padding: 0px 0em 0px 0em;
+  text-align: center;
+}
+
+.PencarianPopuler .KategoriBanner .Banner1 .carousel-inner .PromoList .list-group-item .Info {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  padding: 15px 7px 15px 8px;
+  margin-right: 2px;
+  font-weight: 400;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  color: white;
+  opacity: 0.9;
+}
+
+.PencarianPopuler .KategoriBanner .Banner1 .carousel-inner .PromoList .list-group-item .Info p {
+  color: white;
+}
+
+.PencarianPopuler .KategoriBanner .Banner1 .carousel-inner .PromoList .list-group-item img {
+  height: auto;
+  width: 13.99rem;
+}
+
+.PencarianPopuler .KategoriBanner .Banner1 .carousel-inner .PromoList .list-group-item p {
+  text-align: center;
+  font-size: 12px;
+  background-color: black;
+  opacity: 0.8;
+  z-index: 999;
+  bottom: 0;
+  padding: 5px;
+  color: white;
+}
+
+.PencarianPopuler .KategoriBanner .Banner1 .carousel-inner .PromoList .list-group-item:hover {
+  border: 1px solid blue;
+}
+
+.PencarianPopuler .KategoriBanner .Banner1 .carousel-control-prev {
+  width: auto;
+}
+
+.PencarianPopuler .KategoriBanner .Banner1 .carousel-control-prev .carousel-control-prev-icon {
+  background-color: #333;
+  border: 2px solid #ccc;
+  width: 30px;
+  height: 30px;
+  fill: red;
+  margin-left: -15px;
+}
+
+.PencarianPopuler .KategoriBanner .Banner1 .carousel-control-prev .carousel-control-prev-icon:hover {
+  background-color: #333;
+  border: 2px solid #ccc;
+  width: 70px;
+  height: 70px;
+  fill: red;
+  margin-left: -35px;
+}
+
+.PencarianPopuler .KategoriBanner .Banner1 .carousel-control-next {
+  width: auto;
+}
+
+.PencarianPopuler .KategoriBanner .Banner1 .carousel-control-next .carousel-control-next-icon {
+  background-color: #333;
+  border: 2px solid #ccc;
+  width: 30px;
+  height: 30px;
+  fill: red;
+  margin-right: -15px;
+}
+
+.PencarianPopuler .KategoriBanner .Banner1 .carousel-control-next .carousel-control-next-icon:hover {
+  background-color: #333;
+  border: 2px solid #ccc;
+  width: 70px;
+  height: 70px;
+  fill: red;
+  margin-right: -35px;
+}
+
+.Rekomendasi {
+  height: auto;
+  width: auto;
+  padding: 1em 7em 0em 7em;
+  border: 1px solid #ccc;
+  background-color: #ccc;
+}
+
+.Rekomendasi .Detail {
+  height: auto;
+  width: 100%;
+  background-color: #fff;
+}
+
+.Rekomendasi .Detail .nav-tabs .nav-item a {
+  color: red;
+  margin: 10px;
+}
+
+.Rekomendasi .Detail .tab-content .PromoList {
+  background: none;
+}
+
+.Rekomendasi .Detail .tab-content .PromoList .first {
+  margin-left: 0px;
+}
+
+.Rekomendasi .Detail .tab-content .PromoList .list-group-item {
+  padding: 0px 0em 0px 0em;
+  text-align: center;
+}
+
+.Rekomendasi .Detail .tab-content .PromoList .list-group-item .Info {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  padding: 15px 7px 15px 8px;
+  margin-right: 0px;
+  margin-top: 9px;
+  margin-left: 5px;
+  font-weight: 400;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  color: white;
+  opacity: 0.9;
+}
+
+.Rekomendasi .Detail .tab-content .PromoList .list-group-item .Info p {
+  color: white;
+  background-color: none;
+}
+
+.Rekomendasi .Detail .tab-content .PromoList .list-group-item img {
+  height: auto;
+  width: 13.99rem;
+}
+
+.Rekomendasi .Detail .tab-content .PromoList .list-group-item p {
+  text-align: center;
+  font-size: 12px;
+  background-color: black;
+  opacity: 0.8;
+  z-index: 999;
+  bottom: 0;
+  padding: 5px;
+  color: white;
+}
+
+.Rekomendasi .Detail .tab-content .PromoList .list-group-item:hover {
+  border: 1px solid blue;
+}
+/*# sourceMappingURL=variable.css.map */
